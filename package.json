@@ -1,0 +1,29 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "GoalSetter for coop this summer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenSejdini/mernstack-project.git"
+  },
+  "author": "Alen Sejdini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlenSejdini/mernstack-project/issues"
+  },
+  "homepage": "https://github.com/AlenSejdini/mernstack-project#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
